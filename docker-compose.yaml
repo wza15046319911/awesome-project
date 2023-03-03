@@ -1,0 +1,13 @@
+version: "3"
+services:
+  awesome-project:
+    build: .
+
+#    image: ziawang1/awesome-project:latest
+    container_name: "awesome1"
+    restart: on-failure
+    tty: true
+    ports:
+      - "9000:9000"
+    volumes:
+      - /var/log/awesome:/var/log/awesome
