@@ -1,8 +1,8 @@
 version: "3"
 services:
   awesome-project:
-    build: .
-
+#    build: .
+    image: awesome-project:latest
 #    image: ziawang1/awesome-project:latest
     container_name: "awesome1"
     restart: on-failure
