@@ -3,7 +3,6 @@ services:
   awesome-project:
 #    build: .
     image: awesome-project:latest
-#    image: ziawang1/awesome-project:latest
     container_name: "awesome1"
     restart: on-failure
     tty: true
